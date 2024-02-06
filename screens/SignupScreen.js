@@ -2,7 +2,7 @@ import { useContext, useState } from "react";
 
 import AuthContent from "../components/Auth/AuthContent";
 import LoadingOverlay from "../components/ui/LoadingOverlay";
-import { createUser } from "../auth";
+import { createUser } from "../util/auth";
 import { AuthContext } from "../store/auth-context";
 
 function SignupScreen() {
